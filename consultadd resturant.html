@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Our Restaurant</title>
+        <meta name="viewport"content="width=device-width, initial-scale=1" />
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>               
+    </head>
+    <body>
+        <div class="container">
+        <nav class="navbar navbar-inverse bg-light">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">
+                        <img src="logo.jpg" style="width: 30px;" alt="logo" >                        
+                    </a>
+                </div>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="active nav-item"><a class="nav-link" href="#">Offers</a></li>
+                    <!-- drop down-->
+                    <li class="active nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Restaurants</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Listing</a>
+                            <a class="dropdown-item" href="#">Detail + Cart</a>
+                            <a class="dropdown-item" href="#">Checkout</a>
+                        </div>
+                    </li>
+                    
+                    <li class="active nav-item"><a class="nav-link" href="#">Pages</a></li>
+                    <li class="active nav-item"><a class="nav-link" href="#">My Account</a></li>
+                    <li class="active nav-item"><a class="nav-link" href="#">Cart</a></li>
+                </ul>
+
+            </div>
+        </nav>
+       
+        <div class="jumbotron">
+            <h1>Find Awesome Deals in Australia</h1>
+            <p>Lists of top retaurants, cafes, pubs and bars in Melbourne, based on trends</p>
+
+            <div class="dropdown">
+                <input type="text" class="dropdown-toggle" data-toggle="dropdown" placeholder="Quick Searches"/>
+                <ul class="dropdown-menu">
+                    <li>Breakfast</li>
+                    <li>Lunch</li>
+                    <li>Dinner</li>
+                    <li>Cafes</li>
+                    <li>Delivery</li>
+                </ul>
+            
+            <input type="text" placeholder="Enter your delivery location" />
+        
+            <input type="button" class="btn btn-danger btn-lg" value="Search" />
+            </div>
+
+            <br><br>
+            <p>E.g. Beverages, Pizzas, Chinese, Bakery, Indian...</p>
+
+            
+            <div class="container">
+                <br>
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                  <!-- Indicators -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                  </ol>
+              
+                  <!-- Wrapper for slides -->
+                  <div class="carousel-inner" role="listbox">
+              
+                    <div class="item active">
+                      <img src="burger.jpg" alt="Chania" width="460" height="345">
+                      <div class="carousel-caption">                       
+                        <p>Burger</p>
+                      </div>
+                    </div>
+              
+                    <div class="item">
+                      <img src="coffee.jpg" alt="Chania" width="460" height="345">
+                      <div class="carousel-caption">
+                        <p>Coffee</p>
+                      </div>
+                    </div>
+                  
+                    <div class="item">
+                      <img src="fries.jpg" alt="Flower" width="460" height="345">
+                      <div class="carousel-caption">
+                        <p>Fries</p>
+                      </div>
+                    </div>
+              
+                    <div class="item">
+                      <img src="pizza.jpg" alt="Flower" width="460" height="345">
+                      <div class="carousel-caption">
+                        <p>Pizza</p>
+                      </div>
+                    </div>
+                
+                  </div>
+              
+
+
+        </div>
+        </div>
+    </body>
+</html>
